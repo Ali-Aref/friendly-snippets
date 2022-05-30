@@ -135,17 +135,17 @@
     "prefix": "viewset",
     "body": [
         "class ${1:Name}ViewSet(viewsets.ViewSet):",
-        "def list(self, request):"
+        "def list(self, request):",
         "\tpass",
-        "def create(self, request):"
+        "def create(self, request):",
         "\tpass",
-        "def retrieve(self, request, pk=None):"
+        "def retrieve(self, request, pk=None):",
         "\tpass",
-        "def update(self, request, pk=None):"
+        "def update(self, request, pk=None):",
         "\tpass",
-        "def partial_update(self, request, pk=None):"
+        "def partial_update(self, request, pk=None):",
         "\tpass",
-        "def destroy(self, request, pk=None):"
+        "def destroy(self, request, pk=None):",
         "\tpass",
     ],
     "description": "Django-rest Views ``ViewSet`` Class"
