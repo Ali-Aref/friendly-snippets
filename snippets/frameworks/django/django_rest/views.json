@@ -146,7 +146,7 @@
         "def partial_update(self, request, pk=None):",
         "\tpass",
         "def destroy(self, request, pk=None):",
-        "\tpass"
+        "\tpass",
     ],
     "description": "Django-rest Views ``ViewSet`` Class"
   }
