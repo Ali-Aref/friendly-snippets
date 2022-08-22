@@ -63,12 +63,12 @@
   },
   "Models DateField": {
     "prefix": "mdate",
-    "body": "${1:FIELDNAME} = models.DateField(auto_now=${0:False}, auto_now_add=${1:False})",
+    "body": "${1:FIELDNAME} = models.DateField(auto_now=${2:False}, auto_now_add=${0:False})",
     "description": "Django model ``DateField``"
   },
   "Models DateTimeField": {
     "prefix": "mdatetime",
-    "body": "${1:FIELDNAME} = models.DateTimeField(auto_now=${0:False}, auto_now_add=${1:False})",
+    "body": "${1:FIELDNAME} = models.DateTimeField(auto_now=${2:False}, auto_now_add=${0:False})",
     "description": "Django model ``DateTimeField``"
   },
   "Models DecimalField": {
