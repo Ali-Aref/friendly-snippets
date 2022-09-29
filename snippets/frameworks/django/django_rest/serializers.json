@@ -10,7 +10,7 @@
   "DRF ModelSerializer (class)": {
     "prefix": "modelserializer",
     "body": [
-    	"class ${1:Name}ModelSerializer(serializers.ModelSerializer):",
+    	"class ${1:Name}Serializer(serializers.ModelSerializer):",
     	"\t${2}",
     	"\tclass Meta:",
     	"\t\tmodel = ${3:$1}",
